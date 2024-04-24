@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Button Example</title>
+    <style>
+        /* CSS код для кнопки на фоновом изображении */
+        .section {
+            position: relative;
+            color: white;
+            height: 100vh; /* Задаем высоту секции в 100% высоты экрана */
+            background-size: cover; /* Растягиваем изображение на всю область фона */
+        }
+
+        .button_onas {
+            position: absolute;
+            top: 36.7%;
+            left: 16.4%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0);
+            padding: 63px 63px;
+            text-decoration: none;
+            color: white;
+            border: none;
+            
+        }
+
+        .button_ugolok {
+            position: absolute;
+            top: 36.7%;
+            left: 32.6%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 0, 0, 0);
+            padding: 63px 175px;
+            text-decoration: none;
+            color: white;
+            border: none;
+        }
+
+        .button_vstrechi {
+            position: absolute;
+            top: 36.7%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 0, 0, 0);
+            padding: 63px 170px;
+            text-decoration: none;
+            color: white;
+            border: none;
+        }
+
+        .button_sobytiya {
+            position: absolute;
+            top: 36.7%;
+            left: 77.5%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 0, 0, 0);
+            padding: 63px 175px;
+            text-decoration: none;
+            color: white;
+            border: none;
+        }
+
+        /* Фоновое изображение */
+        .section1 {
+            background-image: url('image.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+            
+    </style>
+</head>
+<body>
+
+    <div class="section section1">
+        <!-- Кнопка на изображении -->
+        <a href="onas/onas.html" class="button_onas"></a>
+        <a href="ugolok/ugolok.html" class="button_ugolok"></a>
+        <a href="sobytiya/sobytiya.html" class="button_sobytiya"></a>}
+        <a href="vstrechi/vastrichi.html" class="button_vstrechi"></a>
+    </div>
+
+</body>
+</html>
